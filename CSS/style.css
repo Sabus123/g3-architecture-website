@@ -144,6 +144,28 @@ margin-bottom: 10px;
 .sponsor-comanies img{
   filter: grayscale(100%);
 }
+
+/* Features will enjoy sid design */
+
+ #feature-section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+ }
+ .feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+ }
+ .feature-card, .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+ .features{
+  gap: 140px;
+ }
  /* Responsive design site */
  @media  screen and (max-width:576px) {
   .navbar,
@@ -182,5 +204,7 @@ margin-bottom: 10px;
         .sponsor-comanies,
         .facts-container{
           grid-template-columns: repeat(2, 1fr);
+          gap: 50px;
+          justify-items: center;
         } 
  }
